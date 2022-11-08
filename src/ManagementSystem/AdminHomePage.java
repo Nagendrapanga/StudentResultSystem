@@ -142,7 +142,8 @@ public class AdminHomePage extends javax.swing.JFrame
         }
     }
 
-    private void addstudentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addstudentActionPerformed
+    private void addstudentActionPerformed(java.awt.event.ActionEvent evt) 
+    {
         AddStudent frame= new AddStudent();
         frame.setVisible(true);
         frame.setLocationRelativeTo(null);
