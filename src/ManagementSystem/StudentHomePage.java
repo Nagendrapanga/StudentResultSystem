@@ -10,9 +10,8 @@ public class StudentHomePage extends javax.swing.JFrame
         initComponents();
     }
 
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
-
+    private void initComponents() 
+    {
         studentresultpage = new javax.swing.JLabel();
         rollno = new javax.swing.JLabel();
         rollnoofstudent = new javax.swing.JTextField();
@@ -24,43 +23,48 @@ public class StudentHomePage extends javax.swing.JFrame
         setMinimumSize(new java.awt.Dimension(700, 560));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        studentresultpage.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        studentresultpage.setFont(new java.awt.Font("Segoe UI", 1, 36));
         studentresultpage.setText("Student Result page");
         getContentPane().add(studentresultpage, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, 350, 60));
 
-        rollno.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        rollno.setFont(new java.awt.Font("Segoe UI", 1, 14));
         rollno.setText("Roll Number");
         getContentPane().add(rollno, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 130, 120, 40));
         getContentPane().add(rollnoofstudent, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 140, 140, 30));
 
-        search.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        search.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/icons8-search-30.png"))); // NOI18N
+        search.setFont(new java.awt.Font("Segoe UI", 1, 14));
+        search.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/icons8-search-30.png")));
         search.setText("Search");
-        search.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        search.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 searchActionPerformed(evt);
             }
         });
         getContentPane().add(search, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 250, 130, 40));
 
-        cancel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        cancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/icons8-cancel-24.png"))); // NOI18N
+        cancel.setFont(new java.awt.Font("Segoe UI", 1, 14));
+        cancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/icons8-cancel-24.png")));
         cancel.setText("Cancel");
-        cancel.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        cancel.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 cancelActionPerformed(evt);
             }
         });
         getContentPane().add(cancel, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 250, 130, 40));
 
-        background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/wp7701735-anime-school-aesthetic-wallpapers.png"))); // NOI18N
+        background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/wp7701735-anime-school-aesthetic-wallpapers.png")));
         background.setText("jLabel3");
         getContentPane().add(background, new org.netbeans.lib.awtextra.AbsoluteConstraints(-170, -140, -1, -1));
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void searchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_searchActionPerformed
+    private void searchActionPerformed(java.awt.event.ActionEvent evt) 
+    {
        
         String rollNo = rollnoofstudent.getText();
         try
@@ -83,15 +87,16 @@ public class StudentHomePage extends javax.swing.JFrame
         {
              JOptionPane.showMessageDialog(null, e.toString());
         }
-    }//GEN-LAST:event_searchActionPerformed
+    }
 
-    private void cancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cancelActionPerformed
+    private void cancelActionPerformed(java.awt.event.ActionEvent evt) 
+    {
          int flag = JOptionPane.showConfirmDialog(null,"Are You Sure Do You Want To Exit","Submit",JOptionPane.YES_NO_OPTION);
          if(flag==0)
          {
              setVisible(false);
          }
-    }//GEN-LAST:event_cancelActionPerformed
+    }
 
     public static void main(String args[])
     {
@@ -103,13 +108,10 @@ public class StudentHomePage extends javax.swing.JFrame
             }
         });
     }
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel background;
     private javax.swing.JButton cancel;
     private javax.swing.JLabel rollno;
     private javax.swing.JTextField rollnoofstudent;
     private javax.swing.JButton search;
     private javax.swing.JLabel studentresultpage;
-    // End of variables declaration//GEN-END:variables
 }
