@@ -10,9 +10,8 @@ public class ListStudents extends javax.swing.JFrame
     {
         initComponents();
     }
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
-
+    private void initComponents() 
+    {
         jScrollPane1 = new javax.swing.JScrollPane();
         listofstudenttable = new javax.swing.JTable();
         exit = new javax.swing.JButton();
@@ -20,21 +19,25 @@ public class ListStudents extends javax.swing.JFrame
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(700, 560));
-        addComponentListener(new java.awt.event.ComponentAdapter() {
-            public void componentShown(java.awt.event.ComponentEvent evt) {
+        addComponentListener(new java.awt.event.ComponentAdapter() 
+        {
+            public void componentShown(java.awt.event.ComponentEvent evt) 
+            {
                 formComponentShown(evt);
             }
         });
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         listofstudenttable.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
+            new Object [][] 
+            {
                 {null, null, null, null},
                 {null, null, null, null},
                 {null, null, null, null},
                 {null, null, null, null}
             },
-            new String [] {
+            new String [] 
+            {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
@@ -43,23 +46,25 @@ public class ListStudents extends javax.swing.JFrame
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 510, 180));
 
         exit.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        exit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/icons8-cancel-24.png"))); // NOI18N
+        exit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/icons8-cancel-24.png")));
         exit.setText("Exit");
-        exit.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        exit.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 exitActionPerformed(evt);
             }
         });
         getContentPane().add(exit, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 270, 100, -1));
 
-        background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/wp4720655-anime-school-aesthetic-wallpapers.jpg"))); // NOI18N
+        background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/wp4720655-anime-school-aesthetic-wallpapers.jpg")));
         background.setText("jLabel1");
         getContentPane().add(background, new org.netbeans.lib.awtextra.AbsoluteConstraints(-180, -200, -1, -1));
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
-
-    private void formComponentShown(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_formComponentShown
+    }
+    private void formComponentShown(java.awt.event.ComponentEvent evt) 
+    {
        try
        {
             Connection con = ConnectionProvider.getCon();
@@ -71,15 +76,16 @@ public class ListStudents extends javax.swing.JFrame
         {
             JOptionPane.showMessageDialog(null, e.toString());
         }
-    }//GEN-LAST:event_formComponentShown
+    }
 
-    private void exitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitActionPerformed
+    private void exitActionPerformed(java.awt.event.ActionEvent evt) 
+    {
          int flag = JOptionPane.showConfirmDialog(null,"Are You Sure Do You Want To Exit","Submit",JOptionPane.YES_NO_OPTION);
          if(flag==0)
          {
              setVisible(false);
          }
-    }//GEN-LAST:event_exitActionPerformed
+    }
 
     public static void main(String args[])
     {
@@ -91,11 +97,8 @@ public class ListStudents extends javax.swing.JFrame
             }
         });
     }
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel background;
     private javax.swing.JButton exit;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable listofstudenttable;
-    // End of variables declaration//GEN-END:variables
 }
