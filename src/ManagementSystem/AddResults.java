@@ -40,10 +40,12 @@ public class AddResults extends javax.swing.JFrame
         getContentPane().add(RollNo, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 30, -1, -1));
 
         Search.setFont(new java.awt.Font("Segoe UI", 1, 12)); 
-        Search.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/icons8-search-30.png"))); // NOI18N
+        Search.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/icons8-search-30.png")));
         Search.setText("Search");
-        Search.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        Search.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 SearchActionPerformed(evt);
             }
         });
