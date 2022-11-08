@@ -9,9 +9,8 @@ public class UpdateStudent extends javax.swing.JFrame
       {
         initComponents();
       }
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
-
+    private void initComponents() 
+    {
         rollno = new javax.swing.JLabel();
         rollnoofstudent = new javax.swing.JTextField();
         student = new javax.swing.JButton();
@@ -32,44 +31,48 @@ public class UpdateStudent extends javax.swing.JFrame
         setMinimumSize(new java.awt.Dimension(700, 560));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        rollno.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        rollno.setFont(new java.awt.Font("Segoe UI", 1, 12));
         rollno.setText("Roll No");
         getContentPane().add(rollno, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 30, 80, 20));
         getContentPane().add(rollnoofstudent, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 30, 120, -1));
 
-        student.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        student.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/icons8-search-30.png"))); // NOI18N
+        student.setFont(new java.awt.Font("Segoe UI", 1, 12));
+        student.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/icons8-search-30.png")));
         student.setText("Search");
-        student.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        student.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 studentActionPerformed(evt);
             }
         });
         getContentPane().add(student, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 30, 130, 30));
 
-        physics.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        physics.setFont(new java.awt.Font("Segoe UI", 1, 12));
         physics.setText("Physics-1");
         getContentPane().add(physics, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 90, 90, 30));
 
-        maths.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        maths.setFont(new java.awt.Font("Segoe UI", 1, 12));
         maths.setText("Maths");
         getContentPane().add(maths, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 150, 100, 30));
 
-        chemistry.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        chemistry.setFont(new java.awt.Font("Segoe UI", 1, 12)); 
         chemistry.setText("Chemitry");
         getContentPane().add(chemistry, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 200, 90, 30));
 
-        electrical.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        electrical.setFont(new java.awt.Font("Segoe UI", 1, 12));
         electrical.setText("Electrical");
         getContentPane().add(electrical, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, 100, 30));
 
-        biology.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        biology.setFont(new java.awt.Font("Segoe UI", 1, 12));
         biology.setText("Biology");
         getContentPane().add(biology, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 320, 100, 30));
         getContentPane().add(enterphysicsmarks, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 92, 130, 30));
 
-        entermathsmarks.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        entermathsmarks.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 entermathsmarksActionPerformed(evt);
             }
         });
@@ -78,34 +81,34 @@ public class UpdateStudent extends javax.swing.JFrame
         getContentPane().add(enterelctricalmarks, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 262, 130, 30));
         getContentPane().add(enterbiologymarks, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 322, 130, 30));
 
-        save.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        save.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/icons8-submit-document-32.png"))); // NOI18N
+        save.setFont(new java.awt.Font("Segoe UI", 1, 12));
+        save.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/icons8-submit-document-32.png")));
         save.setText("Save");
-        save.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        save.addActionListener(new java.awt.event.ActionListener() 
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 saveActionPerformed(evt);
             }
         });
         getContentPane().add(save, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 400, 100, -1));
 
-        cancel.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        cancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/icons8-cancel-24.png"))); // NOI18N
+        cancel.setFont(new java.awt.Font("Segoe UI", 1, 12));
+        cancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/icons8-cancel-24.png")));
         cancel.setText("Cancel");
-        cancel.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        cancel.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 cancelActionPerformed(evt);
             }
         });
         getContentPane().add(cancel, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 400, -1, 40));
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
-
-    private void entermathsmarksActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_entermathsmarksActionPerformed
-
-    }//GEN-LAST:event_entermathsmarksActionPerformed
-
-    private void saveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveActionPerformed
+    }
+    private void saveActionPerformed(java.awt.event.ActionEvent evt)
+    {
         String rollNo = enterbiologymarks.getText();
         int physicsMarks = Integer.parseInt(rollnoofstudent.getText());
         int mathsMarks = Integer.parseInt(enterphysicsmarks.getText());
@@ -129,9 +132,10 @@ public class UpdateStudent extends javax.swing.JFrame
         {
              JOptionPane.showMessageDialog(null, e.toString());
         }
-    }//GEN-LAST:event_saveActionPerformed
+    }
 
-    private void studentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_studentActionPerformed
+    private void studentActionPerformed(java.awt.event.ActionEvent evt) 
+    {
          String rollNo = rollnoofstudent.getText();
         try
         {
@@ -156,16 +160,16 @@ public class UpdateStudent extends javax.swing.JFrame
         {
             JOptionPane.showMessageDialog(null, e.toString());
         }
-    }//GEN-LAST:event_studentActionPerformed
+    }
 
-    private void cancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cancelActionPerformed
-        // TODO add your handling code here:
+    private void cancelActionPerformed(java.awt.event.ActionEvent evt) 
+    {
          int flag = JOptionPane.showConfirmDialog(null,"Are You Sure Do You Want To Exit","Submit",JOptionPane.YES_NO_OPTION);
          if(flag==0)
          {
              setVisible(false);
          }
-    }//GEN-LAST:event_cancelActionPerformed
+    }
 
     public static void main(String args[])
     {
@@ -177,8 +181,6 @@ public class UpdateStudent extends javax.swing.JFrame
             }
         });
     }
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel biology;
     private javax.swing.JButton cancel;
     private javax.swing.JLabel chemistry;
@@ -194,5 +196,4 @@ public class UpdateStudent extends javax.swing.JFrame
     private javax.swing.JTextField rollnoofstudent;
     private javax.swing.JButton save;
     private javax.swing.JButton student;
-    // End of variables declaration//GEN-END:variables
 }
