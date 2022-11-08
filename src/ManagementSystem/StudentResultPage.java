@@ -15,9 +15,8 @@ public class StudentResultPage extends javax.swing.JFrame
         initComponents();
         rollnoforstudent.setText(rollNo);
       }
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
-
+    private void initComponents() 
+    {
         rollno = new javax.swing.JLabel();
         rollnoforstudent = new javax.swing.JTextField();
         name = new javax.swing.JLabel();
@@ -62,35 +61,37 @@ public class StudentResultPage extends javax.swing.JFrame
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(700, 560));
-        addComponentListener(new java.awt.event.ComponentAdapter() {
-            public void componentShown(java.awt.event.ComponentEvent evt) {
+        addComponentListener(new java.awt.event.ComponentAdapter() 
+        {
+            public void componentShown(java.awt.event.ComponentEvent evt) 
+            {
                 formComponentShown(evt);
             }
         });
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        rollno.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        rollno.setFont(new java.awt.Font("Segoe UI", 1, 12));
         rollno.setText("Roll No");
         getContentPane().add(rollno, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 20, 60, -1));
         getContentPane().add(rollnoforstudent, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 20, 120, 30));
 
-        name.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        name.setFont(new java.awt.Font("Segoe UI", 1, 12));
         name.setText("Name");
         getContentPane().add(name, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 20, 80, 20));
 
-        gender.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        gender.setFont(new java.awt.Font("Segoe UI", 1, 12));
         gender.setText("Gender");
         getContentPane().add(gender, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 70, 80, 20));
 
-        fathername.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        fathername.setFont(new java.awt.Font("Segoe UI", 1, 12)); 
         fathername.setText("FatherName");
         getContentPane().add(fathername, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 120, 70, 20));
 
-        course.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        course.setFont(new java.awt.Font("Segoe UI", 1, 12));
         course.setText("Course");
         getContentPane().add(course, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 70, 80, 20));
 
-        branch.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        branch.setFont(new java.awt.Font("Segoe UI", 1, 12)); 
         branch.setText("Branch");
         getContentPane().add(branch, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 120, 70, 20));
         getContentPane().add(nameofthestudent, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 10, 110, 30));
@@ -99,83 +100,83 @@ public class StudentResultPage extends javax.swing.JFrame
         getContentPane().add(courseofstudent, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 70, 120, 30));
         getContentPane().add(branchofstudent, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 120, 120, 30));
 
-        physics.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        physics.setFont(new java.awt.Font("Segoe UI", 1, 12));
         physics.setText("Physics ");
         getContentPane().add(physics, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 226, 80, 20));
 
-        maths.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        maths.setFont(new java.awt.Font("Segoe UI", 1, 12));
         maths.setText("Maths");
         getContentPane().add(maths, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, 80, 20));
 
-        chemistry.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        chemistry.setFont(new java.awt.Font("Segoe UI", 1, 12));
         chemistry.setText("Chemistry");
         getContentPane().add(chemistry, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 316, 80, 20));
 
-        electrical.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        electrical.setFont(new java.awt.Font("Segoe UI", 1, 12));
         electrical.setText("Electrical");
         getContentPane().add(electrical, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 366, 80, 20));
 
-        biology.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        biology.setFont(new java.awt.Font("Segoe UI", 1, 12));
         biology.setText("Biology");
         getContentPane().add(biology, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 416, 80, 20));
 
-        total.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        total.setFont(new java.awt.Font("Segoe UI", 1, 14));
         total.setText("Total");
         getContentPane().add(total, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 460, 70, 20));
 
-        totalmarks.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        totalmarks.setFont(new java.awt.Font("Segoe UI", 1, 12));
         totalmarks.setText("Total Marks");
         getContentPane().add(totalmarks, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 190, -1, -1));
 
-        passingmarks.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        passingmarks.setFont(new java.awt.Font("Segoe UI", 1, 12));
         passingmarks.setText("Passing Marks");
         getContentPane().add(passingmarks, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 190, -1, -1));
 
-        marksobtained.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        marksobtained.setFont(new java.awt.Font("Segoe UI", 1, 12));
         marksobtained.setText("Marks Obtained");
         getContentPane().add(marksobtained, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 190, -1, -1));
 
-        phytotal.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        phytotal.setFont(new java.awt.Font("Segoe UI", 0, 14));
         phytotal.setText("100");
         getContentPane().add(phytotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 230, -1, -1));
 
-        mathstotal.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        mathstotal.setFont(new java.awt.Font("Segoe UI", 0, 14));
         mathstotal.setText("100");
         getContentPane().add(mathstotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 270, -1, -1));
 
-        chemistrytotal.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        chemistrytotal.setFont(new java.awt.Font("Segoe UI", 0, 14));
         chemistrytotal.setText("100");
         getContentPane().add(chemistrytotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 320, -1, -1));
 
-        electricaltotal.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        electricaltotal.setFont(new java.awt.Font("Segoe UI", 0, 14));
         electricaltotal.setText("100");
         getContentPane().add(electricaltotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 370, -1, -1));
 
-        biologytotal.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        biologytotal.setFont(new java.awt.Font("Segoe UI", 0, 14)); 
         biologytotal.setText("100");
         getContentPane().add(biologytotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 420, -1, -1));
 
-        physicsforpass.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        physicsforpass.setFont(new java.awt.Font("Segoe UI", 0, 14)); 
         physicsforpass.setText("30");
         getContentPane().add(physicsforpass, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 230, -1, -1));
 
-        mathsforpass.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        mathsforpass.setFont(new java.awt.Font("Segoe UI", 0, 14));
         mathsforpass.setText("30");
         getContentPane().add(mathsforpass, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 270, -1, -1));
 
-        chemistryforpass.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        chemistryforpass.setFont(new java.awt.Font("Segoe UI", 0, 14));
         chemistryforpass.setText("30");
         getContentPane().add(chemistryforpass, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 320, -1, -1));
 
-        electricalforpass.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        electricalforpass.setFont(new java.awt.Font("Segoe UI", 0, 14));
         electricalforpass.setText("30");
         getContentPane().add(electricalforpass, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 370, -1, -1));
 
-        biologyforpass.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        biologyforpass.setFont(new java.awt.Font("Segoe UI", 0, 14));
         biologyforpass.setText("30");
         getContentPane().add(biologyforpass, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 420, -1, -1));
 
-        jLabel26.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel26.setFont(new java.awt.Font("Segoe UI", 1, 14));
         jLabel26.setText("Verdict");
         getContentPane().add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 460, 60, -1));
         getContentPane().add(phymarks, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 230, 130, -1));
@@ -186,23 +187,26 @@ public class StudentResultPage extends javax.swing.JFrame
         getContentPane().add(studentgotmarks, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 460, 110, -1));
         getContentPane().add(passorfail, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 460, 110, -1));
 
-        logout.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        logout.setFont(new java.awt.Font("Segoe UI", 1, 18));
         logout.setText("Logout");
-        logout.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        logout.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt) 
+            {
                 logoutActionPerformed(evt);
             }
         });
         getContentPane().add(logout, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
-        background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/wp7701735-anime-school-aesthetic-wallpapers.png"))); // NOI18N
+        background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/wp7701735-anime-school-aesthetic-wallpapers.png")));
         background.setText("jLabel27");
         getContentPane().add(background, new org.netbeans.lib.awtextra.AbsoluteConstraints(-40, -70, -1, -1));
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void formComponentShown(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_formComponentShown
+    private void formComponentShown(java.awt.event.ComponentEvent evt) 
+    {
         String rollNo = rollnoforstudent.getText();
         try
         {
@@ -262,15 +266,15 @@ public class StudentResultPage extends javax.swing.JFrame
         {
             JOptionPane.showMessageDialog(null, e.toString());
         }
-    }//GEN-LAST:event_formComponentShown
-
-    private void logoutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_logoutActionPerformed
+    }
+    private void logoutActionPerformed(java.awt.event.ActionEvent evt) 
+    {
          int flag = JOptionPane.showConfirmDialog(null,"Are You Sure Do You Want To Exit","Submit",JOptionPane.YES_NO_OPTION);
          if(flag==0)
          {
              setVisible(false);
          }
-    }//GEN-LAST:event_logoutActionPerformed
+    }
     public static void main(String args[])
     {
         java.awt.EventQueue.invokeLater(new Runnable()
@@ -281,8 +285,6 @@ public class StudentResultPage extends javax.swing.JFrame
             }
         });
     }
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel background;
     private javax.swing.JLabel biology;
     private javax.swing.JLabel biologyforpass;
@@ -324,5 +326,4 @@ public class StudentResultPage extends javax.swing.JFrame
     private javax.swing.JTextField studentgotmarks;
     private javax.swing.JLabel total;
     private javax.swing.JLabel totalmarks;
-    // End of variables declaration//GEN-END:variables
 }
