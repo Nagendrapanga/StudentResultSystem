@@ -48,7 +48,7 @@ public class ListstudentResults extends javax.swing.JFrame
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(22, 60, 500, 190));
 
-        cancel.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        cancel.setFont(new java.awt.Font("Segoe UI", 1, 12)); 
         cancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ManagementSystem/icons8-cancel-24.png")));
         cancel.setText("Cancel");
         cancel.addActionListener(new java.awt.event.ActionListener() 
